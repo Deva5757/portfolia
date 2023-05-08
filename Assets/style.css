@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-image: url(wp3112894-alien-x-wallpapers.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav .logo img{
+    width: 100px;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+nav ul li a:hover{
+    text-shadow: 3px 3px 10px rgb(255, 0, 0),3px 4px 11px rgb(255, 0, 43),4px 3px 12px rgb(255, 0, 0);
+}
+
+.enterance{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    row-gap: 20px;
+}
+.enterance h1{
+    font-size: 50px;
+    text-shadow: 3px 3px 10px rgb(255, 0, 0),3px 4px 11px rgb(255, 0, 43),4px 3px 12px rgb(255, 0, 0);
+}
+.enterance h2{
+    font-size: 30px;
+    text-shadow: 3px 3px 10px rgb(217, 255, 0),3px 4px 11px rgb(217, 255, 0),4px 3px 12px rgb(217, 255, 0);
+}
+.enterance p{
+    font-size: 20px;
+    text-shadow: 3px 3px 10px rgb(72, 255, 0),3px 4px 11px rgb(72, 255, 0),4px 3px 12px rgb(72, 255, 0);
+}
+
+
+/* about */
+.abt{
+    margin-top: 30px;
+    background: linear-gradient(to right, #0D3895, #eb00cb);
+}
+.abt .cap{
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-shadow: 3px 3px 10px rgb(0, 255, 255),3px 4px 11px rgb(0, 255, 255),4px 3px 12px rgb(0, 195, 255);
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contain{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contain h1{
+    text-align: center;
+}
+.contain p{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.contain label{
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+/*skills */
+.skill{
+    margin-top: 30px;
+    background: linear-gradient(to left, #0D3895, #eb00cb);   
+}
+.skill h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 3px 10px rgb(0, 255, 255),3px 4px 11px rgb(0, 255, 255),4px 3px 12px rgb(0, 195, 255);
+}
+.skills{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    column-gap: 20px;
+
+}
+.skills img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+
+/* certifitcate */
+.certificate{
+    margin-top: 30px;
+    background: linear-gradient(360deg, #0D3895, #eb00cb);   
+}
+
+.header h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 3px 10px rgb(0, 255, 255),3px 4px 11px rgb(0, 255, 255),4px 3px 12px rgb(0, 195, 255);
+}
+.certificate .imges{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.certificate .imges img{
+    width: 300px;
+    border: 5px groove red;
+}
+
+.sst{
+    width: 315px;
+    height: 394px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(14, 190, 7, 0.733);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: 1s linear;
+}
+
+.tutor{
+    width: 308px;
+    height: 220px;
+    position: relative;
+}
+.guvi{
+    width: 308px;
+    height: 220px;
+    position: relative;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+/*icon*/
+.contact{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2%;
+}
+/* .contact .icon{
+
+} */
+.contact .icon{
+    width: 20%;
+    height: 10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact .icon img{
+   width: 30%; 
+   padding: 2%;
+   position: relative;
+}
+.contact .icon .ol{
+    width: 100px;
+    height: 100px;
+    background-color: #00eb1f63;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s linear;
+}
+.contact .icon .ol:hover{
+    opacity: 1;
+}
+.contact h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.con{
+    width: 100%;
+    margin-top: 30px;
+}
+.con h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    animation: light 1s infinite linear;
+    transition: 0.5s linear;
+}
+@keyframes light{
+    0%{
+        text-shadow: 0px 0px 0px;
+    }
+    100%{
+        text-shadow: 3px 3px 10px rgb(217, 255, 0),3px 4px 11px rgb(217, 255, 0),4px 3px 12px rgb(217, 255, 0);
+    }
+}
+
+footer{
+    margin-top: 30px;
+    color: white;
+    background-color: gray;
+}
+footer h3{
+    text-align: center;
+    padding: 10px;
+}
