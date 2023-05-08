@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.item1{background-color: aqua;}
+.item1{background-color: rgb(255, 0, 200);}
 .item2{background-color: red;}
 .item3{background-color: yellow;}
 .item4{background-color: lightgreen;}
